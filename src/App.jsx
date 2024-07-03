@@ -1,27 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
-import Navbar from './pages/Navbar'
-import HomePage from './pages/HomePage'
-import CategoryPage from './pages/CategoryPage'
-import AddPage from './pages/AddPage'
-import TestimonialPage from './pages/TestimonialPage'
-import End from './pages/End'
-import Footer from './pages/Footer'
+import Navbar from './pages/HomePage/Navbar'
+import Home from './pages/HomePage/Home'
+import CategoryPage from './pages/HomePage/CategoryPage'
+import AddList from './pages/Auth/AddList'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  document.body.addEventListener("keyup", (e) => {
+
+    if (e.ctrlKey && e.key === 'Home') {
+      console.log("arya");
+      document.body.scrollTo(0, 0);
+    }
+
+  })
+
   return (
     <div className='font-poppins'>
+
       <Navbar />
-      <HomePage />
-      <CategoryPage />
-      <AddPage />
-      <TestimonialPage />
-      <End />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Round1_ATG' element={<Home />} />
+        <Route path='/addList' element={<AddList />} />
+      </Routes>
     </div>
   )
 }

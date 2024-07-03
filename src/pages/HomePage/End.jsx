@@ -1,6 +1,6 @@
 import React from 'react'
-import bigImg3 from "../assets/bigImg3.svg"
-import bigImg4 from "../assets/bigImg4.svg"
+import bigImg3 from "../../assets/bigImg3.svg"
+import bigImg4 from "../../assets/bigImg4.svg"
 
 const Hobby = () => {
     return (

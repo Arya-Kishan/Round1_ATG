@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import logo from "../assets/logo.svg"
-import searchIcon from "../assets/searchIcon.svg"
-import searchIcon1 from "../assets/searchIcon1.svg"
-import hamIcon from "../assets/hamIcon.svg"
-import bookMarkIcon from "../assets/bookMarkIcon.svg"
-import notificationIcon from "../assets/notificationIcon.svg"
-import cartIcon from "../assets/cartIcon.svg"
-import exploreIcon from "../assets/exploreIcon.svg"
-import downSelectIcon from "../assets/downSelectIcon.svg"
-import hobbyIcon from "../assets/hobbyIcon.png"
+import logo from "../../assets/logo.svg"
+import searchIcon from "../../assets/searchIcon.svg"
+import searchIcon1 from "../../assets/searchIcon1.svg"
+import hamIcon from "../../assets/hamIcon.svg"
+import bookMarkIcon from "../../assets/bookMarkIcon.svg"
+import notificationIcon from "../../assets/notificationIcon.svg"
+import cartIcon from "../../assets/cartIcon.svg"
+import exploreIcon from "../../assets/exploreIcon.svg"
+import downSelectIcon from "../../assets/downSelectIcon.svg"
+import hobbyIcon from "../../assets/hobbyIcon.png"
 
 const Navbar = () => {
 

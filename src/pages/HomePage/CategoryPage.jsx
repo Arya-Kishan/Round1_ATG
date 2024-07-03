@@ -1,8 +1,8 @@
 import React from 'react'
-import checkIcon from '../assets/checkIcon.svg'
-import locationIcon from '../assets/locationIcon.svg'
-import peoplesIcon from '../assets/peoplesIcon.svg'
-import basketIcon from '../assets/basketIcon.svg'
+import checkIcon from '../../assets/checkIcon.svg'
+import locationIcon from '../../assets/locationIcon.svg'
+import peoplesIcon from '../../assets/peoplesIcon.svg'
+import basketIcon from '../../assets/basketIcon.svg'
 
 const CategoryPage = () => {
 
@@ -12,28 +12,28 @@ const CategoryPage = () => {
             title: "People",
             desc: "Find a teacher, coach, or expert for your hobby interest in your locality.  Find a partner, teammate, accompanist or collaborator.",
             btnText: 'Connect',
-            color:"8064A2"
+            color: "8064A2"
         },
         {
             pic: locationIcon,
             title: "Place",
             desc: "Find a class, school, playground, auditorium, studio, shop or an event venue.  Book a slot at venues that allow booking through hobbycue.",
             btnText: 'Meet Up',
-            color:"77933C"
+            color: "77933C"
         },
         {
             pic: basketIcon,
-            title: "Prodcut",
+            title: "Product",
             desc: "Find equipment or supplies required for your hobby.  Buy, rent or borrow from shops, online stores or from community members.",
             btnText: 'Get It',
-            color:"C0504D"
+            color: "C0504D"
         },
         {
             pic: checkIcon,
             title: "Program",
             desc: "Find events, meetups and workshops related to your hobby.  Register or buy tickets online.",
             btnText: 'Attend',
-            color:"0096C8"
+            color: "0096C8"
         }
     ]
 
@@ -43,7 +43,7 @@ const CategoryPage = () => {
             <div className='flex flex-wrap justify-center items-center gap-[24px]'>
 
                 {categoryArr.map((e) => (
-                    <div className={`w-[90%] h-[216px] lg:w-[608px] lg:h-[297px] flex flex-col justify-center items-center gap-[10px] p-[24px] lg:px-[44px] lg:py-[40px] border-2 border-[#${e.color}] hover:bg-[#${e.color}]`}>
+                    <div className={`w-[90%] h-[216px] lg:w-[608px] lg:h-[297px] flex flex-col justify-center items-center gap-[10px] p-[24px] lg:px-[44px] lg:py-[40px] border-2 border-gray-300`}>
 
                         {/* icons and title */}
                         <div className='lg:w-full flex justify-start items-center gap-5'>

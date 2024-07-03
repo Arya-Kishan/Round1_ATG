@@ -16,7 +16,7 @@ const HomePage = () => {
 
             <div className='w-full h-full flex justify-center items-center pl-1 lg:pl-[100px]'>
 
-                <div className='w-[90%] lg:w-[707px] h-fit lg:h-[578px] flex flex-col justify-center items-center'>
+                <div className='w-[90%] lg:max-w-[707px] h-fit lg:h-[578px] flex flex-col justify-center items-center'>
 
                     <p className='w-full text-black font-semibold italic text-[18px] lg:text-[36px]'>Explore your <span className='text-[#0096C8]'>hobby</span> or <span className='text-[#8064A2]'>passion</span></p>
 

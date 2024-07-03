@@ -1,12 +1,12 @@
 import React from 'react'
-import fb from '../assets/fbIcon.svg'
-import twitter from '../assets/twitterIcon.svg'
-import insta from '../assets/instaIcon.svg'
-import pin from '../assets/pinIcon.svg'
-import gmail from '../assets/gmailIcon.svg'
-import youtube from '../assets/youtubeIcon.svg'
-import telegram from '../assets/telegramIcon.svg'
-import mail from '../assets/mailIcon.svg'
+import fb from '../../assets/fbIcon.svg'
+import twitter from '../../assets/twitterIcon.svg'
+import insta from '../../assets/instaIcon.svg'
+import pin from '../../assets/pinIcon.svg'
+import gmail from '../../assets/gmailIcon.svg'
+import youtube from '../../assets/youtubeIcon.svg'
+import telegram from '../../assets/telegramIcon.svg'
+import mail from '../../assets/mailIcon.svg'
 
 const Footer = () => {
 

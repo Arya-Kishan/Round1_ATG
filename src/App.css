@@ -1,0 +1,35 @@
+.people {
+    border: 2px solid #8064A2;
+}
+
+.people:hover {
+    background-color: #8064A2;
+    color: white;
+}
+
+.place {
+    border: 2px solid #77933C;
+}
+
+.place:hover {
+    background-color: #77933C;
+    color: white;
+}
+
+.product {
+    border: 2px solid #C0504D;
+}
+
+.product:hover {
+    background-color: #C0504D;
+    color: white;
+}
+
+.program {
+    border: 2px solid #0096C8;
+}
+
+.program:hover {
+    background-color: #0096C8;
+    color: white;
+}

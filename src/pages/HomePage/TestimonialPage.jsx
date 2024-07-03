@@ -1,9 +1,9 @@
 import React from 'react'
-import quoteIcon from '../assets/quoteIcon.svg'
-import playIcon from '../assets/playIcon.svg'
-import dotIcon from '../assets/dotIcon.svg'
-import girl1 from '../assets/girl1.svg'
-import micIcon from '../assets/micIcon.svg'
+import quoteIcon from '../../assets/quoteIcon.svg'
+import playIcon from '../../assets/playIcon.svg'
+import dotIcon from '../../assets/dotIcon.svg'
+import girl1 from '../../assets/girl1.svg'
+import micIcon from '../../assets/micIcon.svg'
 
 const TestimonialPage = () => {
     return (
